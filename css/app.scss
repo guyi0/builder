@@ -6,15 +6,25 @@
 
 /* EXAMPLE CSS STARTS */
 
-body{
 
-  font-family: 'Roboto', sans-serif;
+html {
+  height: 100%;
 }
-.jumbotron {
-    margin-bottom: 0;
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+
 }
 
 
+.container-fluid {
+  min-height: 100vh;
+
+}
+.row
+{
+ min-height:100%;
+}
 #marketing {
     padding-top: 60px;
     .col-lg-4 {
@@ -36,7 +46,7 @@ body{
 
 .featurette-heading {
     font-weight: 300;
-    line-height: 1;
+
     letter-spacing: -1px;
 }
 
@@ -60,24 +70,16 @@ body{
     }
 }
 
-@media (min-width: 768px) {
-    .featurette-heading {
-        font-size: 50px;
-    }
-}
 
-@media (min-width: 992px) {
-    .featurette-heading {
-        margin-top: 120px;
-    }
-}
+
+
 
 td, th {
     vertical-align: middle !important;
     }
-.left, .right {
+ .right {
+display: none;
 
-        height:100vh;
     }
 
 .navbar{
@@ -89,14 +91,12 @@ background: #2E3940;
         background: #2C3F46;
         display: inline-block;
         white-space: nowrap;
-        width: 20%;
         transition: width 1s ;
     }
 
 .right {
         background:#3A4D54;
         transition: width 1s;
-          width: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -125,7 +125,7 @@ span.glyphicon.glyphicon-refresh{
     }
 
 .item {
-        height:50px;
+
         overflow:hidden;
         color:#fff;
     }
@@ -155,7 +155,7 @@ input[type=search]:focus {
     outline:none;
     }
 .type{
-    height: 47px;;
+
     }
 .date{
     background-color:#f7f7f7
@@ -191,6 +191,7 @@ color: #3686A6;
   margin-right: 34%;
 
 
+
 }
 
 .navBtn {
@@ -209,7 +210,7 @@ flex-direction: row;
 justify-content: space-between;
 background-color:#566E75;
 font-weight: bold;
-height: 4.5vh;
+
 
 
 }
@@ -256,9 +257,33 @@ padding: 0;
 margin: 0;
 }
 
+.navPage {
+display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.cardbody .row {
+  display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 5%;
+
+}
+
+.pagehead{
+display: flex;
+flex-direction: row;
+margin-top: 7%;
+}
 // .navBtn span{
 // margin-left:10%;
 //
 // }
 
 /* EXAMPLE CSS ENDS */
+
+
+
+// WEBPACK FOOTER //
+// webpack:///css/Users/User/Documents/GitHub/builder/css/app.scss
