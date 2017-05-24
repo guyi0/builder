@@ -15,8 +15,7 @@ $('.dim').click(function(event){
 
 });
 
-
-
+con
 
 /**
  * EXAMPLE JS STARTS
