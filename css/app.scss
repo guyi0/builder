@@ -10,12 +10,51 @@ body{
 background-color:  #182026;
 
 }
+
+
 .navbar, .navbar-default {
 
   background-color: rgba(37, 48, 56, 1);
    border-color:inherit;
+.catalog a {
+color: red;
+
+
 
 }
+
+.navlinks{
+  margin-left: 83%;
+
+
+}
+
+
+}
+
+
+
+.navbar-default{
+  #catalog {
+   color : #2afcf0;
+   font-family: 'Montserrat';
+   font-size: 1.5rem;
+
+ }
+
+ #Canvas {
+   color : #2bb6fd;
+   font-family: 'Montserrat';
+   font-size: 1.5rem;
+}
+#Johnny {
+  color : white;
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+
+}
+
 
 .jumbotron {
 background-color:inherit;
@@ -56,12 +95,12 @@ margin-bottom: 5%;
 
 .first {
 
-  margin-top:3.4%;
+  margin-top:1.4%;
 }
 
 .last {
 
-  margin-top:2.6%;
+  margin-top:0.6%;
 }
 
 .mid {
