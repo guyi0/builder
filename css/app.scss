@@ -3,7 +3,6 @@
 @import "../node_modules/animate.css/animate.min.css";
 @import "color";
 @import "carousel";
-@import "profile_pages";
 
 /* EXAMPLE CSS STARTS */
 
@@ -12,11 +11,6 @@ background-color:  #182026;
 
 }
 
-.jumbotron {
-
-  padding-top: 0;
-  padding-bottom: 0;
-}
 
 .navbar, .navbar-default {
 
@@ -30,7 +24,7 @@ color: red;
 }
 
 .navlinks{
-  margin-left: 74vw;
+  margin-left: 83%;
 
 
 }
@@ -39,7 +33,8 @@ color: red;
 }
 
 
-.navbar-collapse{
+
+.navbar-default{
   #catalog {
    color : #2afcf0;
    font-family: 'Montserrat';

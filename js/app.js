@@ -15,10 +15,7 @@ $('.dim').click(function(event){
 
 });
 
-$( "#profieP" ).click(function() {
-  $( "#main" ).load( "profilePages.html" );
-});
-
+con
 
 /**
  * EXAMPLE JS STARTS
